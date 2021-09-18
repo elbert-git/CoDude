@@ -1,0 +1,156 @@
+{
+	"basic": {
+		"character name": "",
+		"player name": "",
+		"age": "",
+		"race": "",
+		"body type": "",
+		"disabling characteristics": ""
+	},
+	
+	"attributes": {
+		"str": {"val": 0},
+		"ref": {"val": 0},
+		"int": {"val": 0}
+	},
+	 
+	"skills": {
+		"endurance": {
+			"val":0,
+			"root": "str"
+		},
+		"athletics": {
+			"val":0,
+			"root": "str"
+		},
+		"grip": {
+			"val":0,
+			"root": "str"
+		},
+		"swim": {
+			"val":0,
+			"root": "str"
+		},
+		"throw": {
+			"val":0,
+			"root": "str"
+		},
+		 
+		"perception": {
+			"val":0,
+			"root": "ref"
+		},
+		"acrobatics": {
+			"val":0,
+			"root": "ref"
+		},
+		"ride/pilot": {
+			"val":0,
+			"root": "ref"
+		},
+		"sleight of hand": {
+			"val":0,
+			"root": "ref"
+		},
+		"stealth": {
+			"val":0,
+			"root": "ref"
+		},
+		 
+		"general knowledge": {
+			"val":0,
+			"root": "int"
+		},
+		"deception": {
+			"val":0,
+			"root": "int"
+		},
+		"deception": {
+			"val":0,
+			"root": "int"
+		},
+		"infiltration": {
+			"val":0,
+			"root": "int"
+		},
+		"survival": {
+			"val":0,
+			"root": "int"
+		},
+		 
+		"vocations":{
+			"vocation1_changethisname":{
+				"val":0,
+				"root": "insertroot",
+				"skills":{
+					"skillname1_changethisname":{
+						"val":0,
+						"root": "insertroot"
+					},
+					"skillname2_changethisname":{
+						"val":0,
+						"root": "insertroot"
+					},
+					"skillname2_changethisname":{
+						"val":0,
+						"root": "insertroot"
+					},
+					"skillname3_changethisname":{
+						"val":0,
+						"root": "insertroot"
+					}
+				}
+			},
+			 
+			"vocation2_changethisname":{
+				"val":0,
+				"root": "insertroot",
+				"skills":{
+					"skillname1_changethisname":{
+						"val":0,
+						"root": "insertroot"
+					},
+					"skillname2_changethisname":{
+						"val":0,
+						"root": "insertroot"
+					},
+					"skillname2_changethisname":{
+						"val":0,
+						"root": "insertroot"
+					},
+					"skillname3_changethisname":{
+						"val":0,
+						"root": "insertroot"
+					}
+				}
+			},
+			 
+			"vocation3_changethisname":{
+				"val":0,
+				"root": "insertroot",
+				"skills":{
+					"skillname1_changethisname":{
+						"val":0,
+						"root": "insertroot"
+					},
+					"skillname2_changethisname":{
+						"val":0,
+						"root": "insertroot"
+					},
+					"skillname2_changethisname":{
+						"val":0,
+						"root": "insertroot"
+					},
+					"skillname3_changethisname":{
+						"val":0,
+						"root": "insertroot"
+					}
+				}
+			}
+		}
+	},
+	 
+	"states": {
+
+	}
+}
