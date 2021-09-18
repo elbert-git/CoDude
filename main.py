@@ -14,9 +14,9 @@ print(token)
 def roll_format(array):
     returning_string = ""
     for i in range(array[0]):
-        returning_string += "O"
+        returning_string += ":o:"
     for i in range(array[1]):
-        returning_string += "X"
+        returning_string += ":x:"
     return returning_string
 
 # ---- Discord client setup
@@ -33,7 +33,12 @@ class MyClient(discord.Client):
             return
 
         if message.content.startswith('!R'):
-            await message.channel.send(roll_format(Dice.roll(int(message.content[2:]))))
+            try:
+                roll_result = Dice.roll(int(message.content[2:]))
+                await message.channel.send(roll_format(roll_result))
+                await message.channel.send("{0} sucesses".format(str(roll_result[0])))
+            except:
+                await message.channel.send("uh oh something broke")
 
 # ---- Start the discord client
 client = MyClient()
