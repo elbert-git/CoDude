@@ -7,6 +7,23 @@ import os
 #        - characterjson
 #        - character icon
 
+
+
+#-----------
+#PLEASE REDO THIS
+#simplify all this
+#just have a json of 
+#- particulars
+#- attributes array
+#- skills
+#- strength array
+#- reflex array
+#- intelligence array
+JUST STREAMLINE THIS. THIS IS TOO COMPLICATED
+#-----------
+
+
+
 #this class handles all character data related things
 #get correct amount of rolls
 class CharacterData:
@@ -39,6 +56,13 @@ class CharacterData:
             self.list_of_characters[character] = loaded_json
 
     def get_amount_of_dice(character_name, roll_name):
+        #get approriate data dict
+        curr_dict = list_of_characters[character_name]
+        roll_count = 0
+        #get raw dicegcount
+        #add root attribute dice count
+        #add base dice
+        return roll_count
         pass
 
 
